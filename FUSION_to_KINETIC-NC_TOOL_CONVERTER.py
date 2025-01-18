@@ -80,6 +80,6 @@ with open('ToolTable.txt', 'w') as kinetics_tools:
         kinetics_tools.write(f'useTime_{i:02d}={para[10]}\n')                  # tool usage time
         kinetics_tools.write(f'name_{i:02d}={para[11]}\n')                     # tool name
         kinetics_tools.write(f'overrideS_{i:02d}={float(para[12]):f}\n')       # override spindle speed
-        kinetics_tools.write(f'overrideF_{i:02d}={float(para[13]):f}\n')       # override feed rate  
+        kinetics_tools.write(f'overrideF_{i:02d}={float(para[13]):f}\n')       # override feed rate
 
-    kinetics_tools.write(f'numTools={i}\n')
+    kinetics_tools.write(f'numTools={i+1}\n')
