@@ -11506,7 +11506,11 @@
         {
             "BMC": "carbide",
             "GRADE": "Mill Generic",
-            "description": "4mm Radiusfraeser",
+            "description": "4mm Ball End Mill",
+            "expressions": {
+                "tool_comment": "'4mm Ball End Mill'",
+                "tool_description": "'4mm Ball End Mill'"
+            },
             "geometry": {
                 "CSP": false,
                 "DC": 4,
@@ -11915,7 +11919,7 @@
             },
             "post-process": {
                 "break-control": false,
-                "comment": "4mm Radiusfraeser",
+                "comment": "4mm Ball End Mill",
                 "diameter-offset": 35,
                 "length-offset": 35,
                 "live": true,
@@ -18414,12 +18418,13 @@
         },
         {
             "BMC": "hss",
-            "description": "Radienfräser 3mm",
+            "description": "Radienfraeser 3mm",
             "expressions": {
                 "tool_cornerRadius": "3 mm",
-                "tool_description": "'Radienfräser 3mm'",
+                "tool_description": "'Radienfraeser 3mm'",
                 "tool_diameter": "2 mm",
                 "tool_fluteLength": "10 mm",
+                "tool_live": "false",
                 "tool_shaftDiameter": "6 mm",
                 "tool_shoulderLength": "12 mm",
                 "tool_tipLength": "0 mm"
@@ -18837,7 +18842,7 @@
                 "comment": "",
                 "diameter-offset": 41,
                 "length-offset": 41,
-                "live": true,
+                "live": false,
                 "manual-tool-change": false,
                 "number": 41,
                 "turret": 0
@@ -19350,6 +19355,2427 @@
                 ]
             },
             "type": "chamfer mill",
+            "unit": "millimeters",
+            "vendor": ""
+        },
+        {
+            "BMC": "carbide",
+            "GRADE": "Mill Generic",
+            "description": "Schaftfraeser 3.175mm (Holz, GFK, CFK)",
+            "expressions": {
+                "tool_bodyLength": "30 mm",
+                "tool_comment": "'Schaftfraeser 3.175mm (Holz, GFK, CFK)'",
+                "tool_description": "'Schaftfraeser 3.175mm (Holz, GFK, CFK)'",
+                "tool_diameter": "3.175 mm",
+                "tool_fluteLength": "22 mm",
+                "tool_material": "'carbide'",
+                "tool_number": "43",
+                "tool_numberOfFlutes": "9",
+                "tool_overallLength": "45 mm",
+                "tool_shoulderLength": "22 mm"
+            },
+            "geometry": {
+                "CSP": false,
+                "DC": 3.175,
+                "HAND": true,
+                "LB": 30,
+                "LCF": 22,
+                "NOF": 9,
+                "OAL": 45,
+                "SFDM": 3.175,
+                "assemblyGaugeLength": 70.53,
+                "shoulder-diameter": 3.175,
+                "shoulder-length": 22
+            },
+            "guid": "64921b6e-d0e2-44d5-8f37-ec01d1898455",
+            "holder": {
+                "description": "ER16_ColletChuck_Assembled",
+                "expressions": {
+                    "tool_holderGaugeLength": "segment_1_height + segment_2_height + segment_3_height + segment_4_height + segment_5_height + segment_6_height + segment_7_height + segment_8_height + segment_9_height + segment_10_height + segment_11_height + segment_12_height + segment_13_height + segment_14_height + segment_15_height + segment_16_height + segment_17_height + segment_18_height + segment_19_height + segment_20_height + segment_21_height + segment_22_height + segment_23_height + segment_24_height + segment_25_height + segment_26_height + segment_27_height + segment_28_height + segment_29_height + segment_30_height + segment_31_height + segment_32_height + segment_33_height + segment_34_height + segment_35_height + segment_36_height + segment_37_height + segment_38_height + segment_39_height + segment_40_height + segment_41_height + segment_42_height + segment_43_height + segment_44_height + segment_45_height + segment_46_height + segment_47_height + segment_48_height + segment_49_height + segment_50_height + segment_51_height + segment_52_height + segment_53_height + segment_54_height + segment_55_height + segment_56_height + segment_57_height + segment_58_height + segment_59_height + segment_60_height + segment_61_height + segment_62_height + segment_63_height + segment_64_height + segment_65_height + segment_66_height + segment_67_height + segment_68_height + segment_69_height + segment_70_height + segment_71_height + segment_72_height + segment_73_height + segment_74_height + segment_75_height"
+                },
+                "gaugeLength": 40.53,
+                "guid": "",
+                "last_modified": 1570310972973,
+                "product-id": "",
+                "product-link": "",
+                "reference_guid": "00000000-0000-0000-0000-965092880402",
+                "segments": [
+                    {
+                        "height": 0.34,
+                        "lower-diameter": 18.685,
+                        "upper-diameter": 20.553
+                    },
+                    {
+                        "height": 0.64,
+                        "lower-diameter": 20.773,
+                        "upper-diameter": 23.864
+                    },
+                    {
+                        "height": 0.35,
+                        "lower-diameter": 23.882,
+                        "upper-diameter": 23.882
+                    },
+                    {
+                        "height": 1.71,
+                        "lower-diameter": 23.882,
+                        "upper-diameter": 23.882
+                    },
+                    {
+                        "height": 0.37,
+                        "lower-diameter": 23.882,
+                        "upper-diameter": 23.882
+                    },
+                    {
+                        "height": 0.45,
+                        "lower-diameter": 23.882,
+                        "upper-diameter": 23.882
+                    },
+                    {
+                        "height": 0.51,
+                        "lower-diameter": 23.882,
+                        "upper-diameter": 23.882
+                    },
+                    {
+                        "height": 1.48,
+                        "lower-diameter": 23.882,
+                        "upper-diameter": 23.882
+                    },
+                    {
+                        "height": 0.65,
+                        "lower-diameter": 23.882,
+                        "upper-diameter": 23.882
+                    },
+                    {
+                        "height": 0.81,
+                        "lower-diameter": 23.882,
+                        "upper-diameter": 23.882
+                    },
+                    {
+                        "height": 0.68,
+                        "lower-diameter": 23.888,
+                        "upper-diameter": 24.225
+                    },
+                    {
+                        "height": 0.26,
+                        "lower-diameter": 24.225,
+                        "upper-diameter": 24.299
+                    },
+                    {
+                        "height": 0.11,
+                        "lower-diameter": 24.32,
+                        "upper-diameter": 24.32
+                    },
+                    {
+                        "height": 0.23,
+                        "lower-diameter": 24.32,
+                        "upper-diameter": 24.32
+                    },
+                    {
+                        "height": 0.26,
+                        "lower-diameter": 24.32,
+                        "upper-diameter": 24.32
+                    },
+                    {
+                        "height": 0.22,
+                        "lower-diameter": 24.32,
+                        "upper-diameter": 24.32
+                    },
+                    {
+                        "height": 0.25,
+                        "lower-diameter": 24.32,
+                        "upper-diameter": 24.32
+                    },
+                    {
+                        "height": 0.21,
+                        "lower-diameter": 24.32,
+                        "upper-diameter": 24.32
+                    },
+                    {
+                        "height": 0.1,
+                        "lower-diameter": 24.32,
+                        "upper-diameter": 24.32
+                    },
+                    {
+                        "height": 0.11,
+                        "lower-diameter": 24.32,
+                        "upper-diameter": 24.32
+                    },
+                    {
+                        "height": 0.16,
+                        "lower-diameter": 24.32,
+                        "upper-diameter": 24.32
+                    },
+                    {
+                        "height": 0.12,
+                        "lower-diameter": 24.32,
+                        "upper-diameter": 24.32
+                    },
+                    {
+                        "height": 0.15,
+                        "lower-diameter": 24.32,
+                        "upper-diameter": 24.32
+                    },
+                    {
+                        "height": 0.2,
+                        "lower-diameter": 24.32,
+                        "upper-diameter": 24.32
+                    },
+                    {
+                        "height": 0.16,
+                        "lower-diameter": 24.32,
+                        "upper-diameter": 24.32
+                    },
+                    {
+                        "height": 0.12,
+                        "lower-diameter": 24.32,
+                        "upper-diameter": 24.32
+                    },
+                    {
+                        "height": 0.15,
+                        "lower-diameter": 24.32,
+                        "upper-diameter": 24.32
+                    },
+                    {
+                        "height": 0.2,
+                        "lower-diameter": 24.32,
+                        "upper-diameter": 24.32
+                    },
+                    {
+                        "height": 0.16,
+                        "lower-diameter": 24.32,
+                        "upper-diameter": 24.32
+                    },
+                    {
+                        "height": 0.12,
+                        "lower-diameter": 24.32,
+                        "upper-diameter": 24.32
+                    },
+                    {
+                        "height": 0.15,
+                        "lower-diameter": 24.32,
+                        "upper-diameter": 24.32
+                    },
+                    {
+                        "height": 0.2,
+                        "lower-diameter": 24.32,
+                        "upper-diameter": 24.32
+                    },
+                    {
+                        "height": 0.16,
+                        "lower-diameter": 24.32,
+                        "upper-diameter": 24.32
+                    },
+                    {
+                        "height": 0.12,
+                        "lower-diameter": 24.32,
+                        "upper-diameter": 24.32
+                    },
+                    {
+                        "height": 0.15,
+                        "lower-diameter": 24.32,
+                        "upper-diameter": 24.32
+                    },
+                    {
+                        "height": 0.2,
+                        "lower-diameter": 24.32,
+                        "upper-diameter": 24.32
+                    },
+                    {
+                        "height": 0.16,
+                        "lower-diameter": 24.32,
+                        "upper-diameter": 24.32
+                    },
+                    {
+                        "height": 0.12,
+                        "lower-diameter": 24.32,
+                        "upper-diameter": 24.32
+                    },
+                    {
+                        "height": 0.15,
+                        "lower-diameter": 24.32,
+                        "upper-diameter": 24.32
+                    },
+                    {
+                        "height": 0.2,
+                        "lower-diameter": 24.32,
+                        "upper-diameter": 24.32
+                    },
+                    {
+                        "height": 0.16,
+                        "lower-diameter": 24.32,
+                        "upper-diameter": 24.32
+                    },
+                    {
+                        "height": 0.12,
+                        "lower-diameter": 24.32,
+                        "upper-diameter": 24.32
+                    },
+                    {
+                        "height": 0.15,
+                        "lower-diameter": 24.32,
+                        "upper-diameter": 24.32
+                    },
+                    {
+                        "height": 0.2,
+                        "lower-diameter": 24.32,
+                        "upper-diameter": 24.32
+                    },
+                    {
+                        "height": 0.16,
+                        "lower-diameter": 24.32,
+                        "upper-diameter": 24.32
+                    },
+                    {
+                        "height": 0.12,
+                        "lower-diameter": 24.32,
+                        "upper-diameter": 24.32
+                    },
+                    {
+                        "height": 0.15,
+                        "lower-diameter": 24.32,
+                        "upper-diameter": 24.32
+                    },
+                    {
+                        "height": 0.2,
+                        "lower-diameter": 24.32,
+                        "upper-diameter": 24.32
+                    },
+                    {
+                        "height": 0.16,
+                        "lower-diameter": 24.32,
+                        "upper-diameter": 24.32
+                    },
+                    {
+                        "height": 0.12,
+                        "lower-diameter": 24.32,
+                        "upper-diameter": 24.32
+                    },
+                    {
+                        "height": 0.15,
+                        "lower-diameter": 24.32,
+                        "upper-diameter": 24.32
+                    },
+                    {
+                        "height": 0.14,
+                        "lower-diameter": 24.218,
+                        "upper-diameter": 24.014
+                    },
+                    {
+                        "height": 0.11,
+                        "lower-diameter": 23.97,
+                        "upper-diameter": 23.519
+                    },
+                    {
+                        "height": 0.22,
+                        "lower-diameter": 18.41,
+                        "upper-diameter": 18.338
+                    },
+                    {
+                        "height": 0.31,
+                        "lower-diameter": 18.331,
+                        "upper-diameter": 18.35
+                    },
+                    {
+                        "height": 0.11,
+                        "lower-diameter": 18.35,
+                        "upper-diameter": 18.359
+                    },
+                    {
+                        "height": 0.3,
+                        "lower-diameter": 18.358,
+                        "upper-diameter": 18.391
+                    },
+                    {
+                        "height": 0.22,
+                        "lower-diameter": 18.475,
+                        "upper-diameter": 18.81
+                    },
+                    {
+                        "height": 1.52,
+                        "lower-diameter": 18.835,
+                        "upper-diameter": 18.92
+                    },
+                    {
+                        "height": 0.15,
+                        "lower-diameter": 18.92,
+                        "upper-diameter": 18.988
+                    },
+                    {
+                        "height": 0.17,
+                        "lower-diameter": 19.008,
+                        "upper-diameter": 19.454
+                    },
+                    {
+                        "height": 2.21,
+                        "lower-diameter": 20.02,
+                        "upper-diameter": 20.02
+                    },
+                    {
+                        "height": 0.77,
+                        "lower-diameter": 20.02,
+                        "upper-diameter": 20.02
+                    },
+                    {
+                        "height": 0.38,
+                        "lower-diameter": 20.02,
+                        "upper-diameter": 20.02
+                    },
+                    {
+                        "height": 1.8,
+                        "lower-diameter": 20.02,
+                        "upper-diameter": 20.02
+                    },
+                    {
+                        "height": 0.67,
+                        "lower-diameter": 20.02,
+                        "upper-diameter": 20.02
+                    },
+                    {
+                        "height": 1.2,
+                        "lower-diameter": 20.02,
+                        "upper-diameter": 20.02
+                    },
+                    {
+                        "height": 4.29,
+                        "lower-diameter": 20.02,
+                        "upper-diameter": 20.02
+                    },
+                    {
+                        "height": 3.03,
+                        "lower-diameter": 20.02,
+                        "upper-diameter": 20.02
+                    },
+                    {
+                        "height": 0.28,
+                        "lower-diameter": 20.02,
+                        "upper-diameter": 20.02
+                    },
+                    {
+                        "height": 1.63,
+                        "lower-diameter": 20.02,
+                        "upper-diameter": 20.02
+                    },
+                    {
+                        "height": 1.63,
+                        "lower-diameter": 20.02,
+                        "upper-diameter": 20.02
+                    },
+                    {
+                        "height": 0.28,
+                        "lower-diameter": 20.02,
+                        "upper-diameter": 20.02
+                    },
+                    {
+                        "height": 4.34,
+                        "lower-diameter": 20.02,
+                        "upper-diameter": 20.02
+                    },
+                    {
+                        "height": 0.19,
+                        "lower-diameter": 20.02,
+                        "upper-diameter": 19.64
+                    }
+                ],
+                "type": "holder",
+                "unit": "millimeters",
+                "vendor": ""
+            },
+            "post-process": {
+                "break-control": false,
+                "comment": "Schaftfraeser 3.175mm (Holz, GFK, CFK)",
+                "diameter-offset": 43,
+                "length-offset": 43,
+                "live": false,
+                "manual-tool-change": true,
+                "number": 43,
+                "turret": 0
+            },
+            "product-id": "",
+            "product-link": "",
+            "shaft": {
+                "segments": [
+                    {
+                        "height": 3,
+                        "lower-diameter": 3.175,
+                        "upper-diameter": 3.175
+                    }
+                ],
+                "type": "shaft"
+            },
+            "start-values": {
+                "presets": [
+                    {
+                        "description": null,
+                        "expressions": {
+                            "tool_feedCutting": "2000mm/min",
+                            "tool_feedEntry": "1500 mmpm",
+                            "tool_feedExit": "2500 mmpm",
+                            "tool_feedPlunge": "1000 mmpm",
+                            "tool_feedRamp": "1500 mmpm",
+                            "tool_spindleSpeed": "20000 rpm"
+                        },
+                        "f_n": 0.05,
+                        "f_z": 0.011111111111111112,
+                        "guid": "2f1db714-6ace-45fa-9e2b-4bd858d4c018",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 20000,
+                        "n_ramp": 20000,
+                        "name": "Vorgabe-Voreinstellung",
+                        "tool-coolant": "disabled",
+                        "use-stepdown": false,
+                        "use-stepover": false,
+                        "v_c": 199.4911335029518,
+                        "v_f": 2000,
+                        "v_f_leadIn": 1500,
+                        "v_f_leadOut": 2500,
+                        "v_f_plunge": 1000,
+                        "v_f_ramp": 1500,
+                        "v_f_transition": 2000
+                    }
+                ]
+            },
+            "type": "flat end mill",
+            "unit": "millimeters",
+            "vendor": ""
+        },
+        {
+            "BMC": "carbide",
+            "GRADE": "Mill Generic",
+            "description": "Schaftfraeser 3.1mm (Holz, GFK, CFK)",
+            "expressions": {
+                "tool_bodyLength": "30 mm",
+                "tool_comment": "'Schaftfraeser 3.1mm (Holz, GFK, CFK)'",
+                "tool_description": "'Schaftfraeser 3.1mm (Holz, GFK, CFK)'",
+                "tool_diameter": "3.1 mm",
+                "tool_fluteLength": "25 mm",
+                "tool_material": "'carbide'",
+                "tool_number": "44",
+                "tool_numberOfFlutes": "9",
+                "tool_overallLength": "50 mm",
+                "tool_shoulderLength": "25 mm"
+            },
+            "geometry": {
+                "CSP": false,
+                "DC": 3.1,
+                "HAND": true,
+                "LB": 30,
+                "LCF": 25,
+                "NOF": 9,
+                "OAL": 50,
+                "SFDM": 3.1,
+                "assemblyGaugeLength": 70.53,
+                "shoulder-diameter": 3.1,
+                "shoulder-length": 25
+            },
+            "guid": "f087c14c-873e-4a1d-bbd1-9f7932e7f173",
+            "holder": {
+                "description": "ER16_ColletChuck_Assembled",
+                "expressions": {
+                    "tool_holderGaugeLength": "segment_1_height + segment_2_height + segment_3_height + segment_4_height + segment_5_height + segment_6_height + segment_7_height + segment_8_height + segment_9_height + segment_10_height + segment_11_height + segment_12_height + segment_13_height + segment_14_height + segment_15_height + segment_16_height + segment_17_height + segment_18_height + segment_19_height + segment_20_height + segment_21_height + segment_22_height + segment_23_height + segment_24_height + segment_25_height + segment_26_height + segment_27_height + segment_28_height + segment_29_height + segment_30_height + segment_31_height + segment_32_height + segment_33_height + segment_34_height + segment_35_height + segment_36_height + segment_37_height + segment_38_height + segment_39_height + segment_40_height + segment_41_height + segment_42_height + segment_43_height + segment_44_height + segment_45_height + segment_46_height + segment_47_height + segment_48_height + segment_49_height + segment_50_height + segment_51_height + segment_52_height + segment_53_height + segment_54_height + segment_55_height + segment_56_height + segment_57_height + segment_58_height + segment_59_height + segment_60_height + segment_61_height + segment_62_height + segment_63_height + segment_64_height + segment_65_height + segment_66_height + segment_67_height + segment_68_height + segment_69_height + segment_70_height + segment_71_height + segment_72_height + segment_73_height + segment_74_height + segment_75_height"
+                },
+                "gaugeLength": 40.53,
+                "guid": "",
+                "last_modified": 1570310972973,
+                "product-id": "",
+                "product-link": "",
+                "reference_guid": "00000000-0000-0000-0000-965092880402",
+                "segments": [
+                    {
+                        "height": 0.34,
+                        "lower-diameter": 18.685,
+                        "upper-diameter": 20.553
+                    },
+                    {
+                        "height": 0.64,
+                        "lower-diameter": 20.773,
+                        "upper-diameter": 23.864
+                    },
+                    {
+                        "height": 0.35,
+                        "lower-diameter": 23.882,
+                        "upper-diameter": 23.882
+                    },
+                    {
+                        "height": 1.71,
+                        "lower-diameter": 23.882,
+                        "upper-diameter": 23.882
+                    },
+                    {
+                        "height": 0.37,
+                        "lower-diameter": 23.882,
+                        "upper-diameter": 23.882
+                    },
+                    {
+                        "height": 0.45,
+                        "lower-diameter": 23.882,
+                        "upper-diameter": 23.882
+                    },
+                    {
+                        "height": 0.51,
+                        "lower-diameter": 23.882,
+                        "upper-diameter": 23.882
+                    },
+                    {
+                        "height": 1.48,
+                        "lower-diameter": 23.882,
+                        "upper-diameter": 23.882
+                    },
+                    {
+                        "height": 0.65,
+                        "lower-diameter": 23.882,
+                        "upper-diameter": 23.882
+                    },
+                    {
+                        "height": 0.81,
+                        "lower-diameter": 23.882,
+                        "upper-diameter": 23.882
+                    },
+                    {
+                        "height": 0.68,
+                        "lower-diameter": 23.888,
+                        "upper-diameter": 24.225
+                    },
+                    {
+                        "height": 0.26,
+                        "lower-diameter": 24.225,
+                        "upper-diameter": 24.299
+                    },
+                    {
+                        "height": 0.11,
+                        "lower-diameter": 24.32,
+                        "upper-diameter": 24.32
+                    },
+                    {
+                        "height": 0.23,
+                        "lower-diameter": 24.32,
+                        "upper-diameter": 24.32
+                    },
+                    {
+                        "height": 0.26,
+                        "lower-diameter": 24.32,
+                        "upper-diameter": 24.32
+                    },
+                    {
+                        "height": 0.22,
+                        "lower-diameter": 24.32,
+                        "upper-diameter": 24.32
+                    },
+                    {
+                        "height": 0.25,
+                        "lower-diameter": 24.32,
+                        "upper-diameter": 24.32
+                    },
+                    {
+                        "height": 0.21,
+                        "lower-diameter": 24.32,
+                        "upper-diameter": 24.32
+                    },
+                    {
+                        "height": 0.1,
+                        "lower-diameter": 24.32,
+                        "upper-diameter": 24.32
+                    },
+                    {
+                        "height": 0.11,
+                        "lower-diameter": 24.32,
+                        "upper-diameter": 24.32
+                    },
+                    {
+                        "height": 0.16,
+                        "lower-diameter": 24.32,
+                        "upper-diameter": 24.32
+                    },
+                    {
+                        "height": 0.12,
+                        "lower-diameter": 24.32,
+                        "upper-diameter": 24.32
+                    },
+                    {
+                        "height": 0.15,
+                        "lower-diameter": 24.32,
+                        "upper-diameter": 24.32
+                    },
+                    {
+                        "height": 0.2,
+                        "lower-diameter": 24.32,
+                        "upper-diameter": 24.32
+                    },
+                    {
+                        "height": 0.16,
+                        "lower-diameter": 24.32,
+                        "upper-diameter": 24.32
+                    },
+                    {
+                        "height": 0.12,
+                        "lower-diameter": 24.32,
+                        "upper-diameter": 24.32
+                    },
+                    {
+                        "height": 0.15,
+                        "lower-diameter": 24.32,
+                        "upper-diameter": 24.32
+                    },
+                    {
+                        "height": 0.2,
+                        "lower-diameter": 24.32,
+                        "upper-diameter": 24.32
+                    },
+                    {
+                        "height": 0.16,
+                        "lower-diameter": 24.32,
+                        "upper-diameter": 24.32
+                    },
+                    {
+                        "height": 0.12,
+                        "lower-diameter": 24.32,
+                        "upper-diameter": 24.32
+                    },
+                    {
+                        "height": 0.15,
+                        "lower-diameter": 24.32,
+                        "upper-diameter": 24.32
+                    },
+                    {
+                        "height": 0.2,
+                        "lower-diameter": 24.32,
+                        "upper-diameter": 24.32
+                    },
+                    {
+                        "height": 0.16,
+                        "lower-diameter": 24.32,
+                        "upper-diameter": 24.32
+                    },
+                    {
+                        "height": 0.12,
+                        "lower-diameter": 24.32,
+                        "upper-diameter": 24.32
+                    },
+                    {
+                        "height": 0.15,
+                        "lower-diameter": 24.32,
+                        "upper-diameter": 24.32
+                    },
+                    {
+                        "height": 0.2,
+                        "lower-diameter": 24.32,
+                        "upper-diameter": 24.32
+                    },
+                    {
+                        "height": 0.16,
+                        "lower-diameter": 24.32,
+                        "upper-diameter": 24.32
+                    },
+                    {
+                        "height": 0.12,
+                        "lower-diameter": 24.32,
+                        "upper-diameter": 24.32
+                    },
+                    {
+                        "height": 0.15,
+                        "lower-diameter": 24.32,
+                        "upper-diameter": 24.32
+                    },
+                    {
+                        "height": 0.2,
+                        "lower-diameter": 24.32,
+                        "upper-diameter": 24.32
+                    },
+                    {
+                        "height": 0.16,
+                        "lower-diameter": 24.32,
+                        "upper-diameter": 24.32
+                    },
+                    {
+                        "height": 0.12,
+                        "lower-diameter": 24.32,
+                        "upper-diameter": 24.32
+                    },
+                    {
+                        "height": 0.15,
+                        "lower-diameter": 24.32,
+                        "upper-diameter": 24.32
+                    },
+                    {
+                        "height": 0.2,
+                        "lower-diameter": 24.32,
+                        "upper-diameter": 24.32
+                    },
+                    {
+                        "height": 0.16,
+                        "lower-diameter": 24.32,
+                        "upper-diameter": 24.32
+                    },
+                    {
+                        "height": 0.12,
+                        "lower-diameter": 24.32,
+                        "upper-diameter": 24.32
+                    },
+                    {
+                        "height": 0.15,
+                        "lower-diameter": 24.32,
+                        "upper-diameter": 24.32
+                    },
+                    {
+                        "height": 0.2,
+                        "lower-diameter": 24.32,
+                        "upper-diameter": 24.32
+                    },
+                    {
+                        "height": 0.16,
+                        "lower-diameter": 24.32,
+                        "upper-diameter": 24.32
+                    },
+                    {
+                        "height": 0.12,
+                        "lower-diameter": 24.32,
+                        "upper-diameter": 24.32
+                    },
+                    {
+                        "height": 0.15,
+                        "lower-diameter": 24.32,
+                        "upper-diameter": 24.32
+                    },
+                    {
+                        "height": 0.14,
+                        "lower-diameter": 24.218,
+                        "upper-diameter": 24.014
+                    },
+                    {
+                        "height": 0.11,
+                        "lower-diameter": 23.97,
+                        "upper-diameter": 23.519
+                    },
+                    {
+                        "height": 0.22,
+                        "lower-diameter": 18.41,
+                        "upper-diameter": 18.338
+                    },
+                    {
+                        "height": 0.31,
+                        "lower-diameter": 18.331,
+                        "upper-diameter": 18.35
+                    },
+                    {
+                        "height": 0.11,
+                        "lower-diameter": 18.35,
+                        "upper-diameter": 18.359
+                    },
+                    {
+                        "height": 0.3,
+                        "lower-diameter": 18.358,
+                        "upper-diameter": 18.391
+                    },
+                    {
+                        "height": 0.22,
+                        "lower-diameter": 18.475,
+                        "upper-diameter": 18.81
+                    },
+                    {
+                        "height": 1.52,
+                        "lower-diameter": 18.835,
+                        "upper-diameter": 18.92
+                    },
+                    {
+                        "height": 0.15,
+                        "lower-diameter": 18.92,
+                        "upper-diameter": 18.988
+                    },
+                    {
+                        "height": 0.17,
+                        "lower-diameter": 19.008,
+                        "upper-diameter": 19.454
+                    },
+                    {
+                        "height": 2.21,
+                        "lower-diameter": 20.02,
+                        "upper-diameter": 20.02
+                    },
+                    {
+                        "height": 0.77,
+                        "lower-diameter": 20.02,
+                        "upper-diameter": 20.02
+                    },
+                    {
+                        "height": 0.38,
+                        "lower-diameter": 20.02,
+                        "upper-diameter": 20.02
+                    },
+                    {
+                        "height": 1.8,
+                        "lower-diameter": 20.02,
+                        "upper-diameter": 20.02
+                    },
+                    {
+                        "height": 0.67,
+                        "lower-diameter": 20.02,
+                        "upper-diameter": 20.02
+                    },
+                    {
+                        "height": 1.2,
+                        "lower-diameter": 20.02,
+                        "upper-diameter": 20.02
+                    },
+                    {
+                        "height": 4.29,
+                        "lower-diameter": 20.02,
+                        "upper-diameter": 20.02
+                    },
+                    {
+                        "height": 3.03,
+                        "lower-diameter": 20.02,
+                        "upper-diameter": 20.02
+                    },
+                    {
+                        "height": 0.28,
+                        "lower-diameter": 20.02,
+                        "upper-diameter": 20.02
+                    },
+                    {
+                        "height": 1.63,
+                        "lower-diameter": 20.02,
+                        "upper-diameter": 20.02
+                    },
+                    {
+                        "height": 1.63,
+                        "lower-diameter": 20.02,
+                        "upper-diameter": 20.02
+                    },
+                    {
+                        "height": 0.28,
+                        "lower-diameter": 20.02,
+                        "upper-diameter": 20.02
+                    },
+                    {
+                        "height": 4.34,
+                        "lower-diameter": 20.02,
+                        "upper-diameter": 20.02
+                    },
+                    {
+                        "height": 0.19,
+                        "lower-diameter": 20.02,
+                        "upper-diameter": 19.64
+                    }
+                ],
+                "type": "holder",
+                "unit": "millimeters",
+                "vendor": ""
+            },
+            "post-process": {
+                "break-control": false,
+                "comment": "Schaftfraeser 3.1mm (Holz, GFK, CFK)",
+                "diameter-offset": 44,
+                "length-offset": 44,
+                "live": false,
+                "manual-tool-change": true,
+                "number": 44,
+                "turret": 0
+            },
+            "product-id": "",
+            "product-link": "",
+            "shaft": {
+                "segments": [
+                    {
+                        "height": 3,
+                        "lower-diameter": 3.175,
+                        "upper-diameter": 3.175
+                    }
+                ],
+                "type": "shaft"
+            },
+            "start-values": {
+                "presets": [
+                    {
+                        "description": null,
+                        "expressions": {
+                            "tool_feedCutting": "2000mm/min",
+                            "tool_feedEntry": "1500 mmpm",
+                            "tool_feedExit": "2500 mmpm",
+                            "tool_feedPlunge": "1000 mmpm",
+                            "tool_feedRamp": "1500 mmpm",
+                            "tool_spindleSpeed": "24000 rpm"
+                        },
+                        "f_n": 0.041666666666666664,
+                        "f_z": 0.00925925925925926,
+                        "guid": "2f1db714-6ace-45fa-9e2b-4bd858d4c018",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 24000,
+                        "n_ramp": 24000,
+                        "name": "Vorgabe-Voreinstellung",
+                        "tool-coolant": "disabled",
+                        "use-stepdown": false,
+                        "use-stepover": false,
+                        "v_c": 233.73449342708065,
+                        "v_f": 2000,
+                        "v_f_leadIn": 1500,
+                        "v_f_leadOut": 2500,
+                        "v_f_plunge": 1000,
+                        "v_f_ramp": 1500,
+                        "v_f_transition": 2000
+                    }
+                ]
+            },
+            "type": "flat end mill",
+            "unit": "millimeters",
+            "vendor": ""
+        },
+        {
+            "BMC": "carbide",
+            "GRADE": "Mill Generic",
+            "description": "4mm (Holz, GFK, CFK)",
+            "expressions": {
+                "tool_bodyLength": "30 mm",
+                "tool_comment": "'Schaftfraeser 4mm (Holz, GFK, CFK)'",
+                "tool_description": "'4mm (Holz, GFK, CFK)'",
+                "tool_diameter": "4 mm",
+                "tool_fluteLength": "25 mm",
+                "tool_material": "'carbide'",
+                "tool_number": "45",
+                "tool_numberOfFlutes": "10",
+                "tool_overallLength": "50 mm",
+                "tool_shoulderLength": "25 mm"
+            },
+            "geometry": {
+                "CSP": false,
+                "DC": 4,
+                "HAND": true,
+                "LB": 30,
+                "LCF": 25,
+                "NOF": 10,
+                "OAL": 50,
+                "SFDM": 4,
+                "assemblyGaugeLength": 70.53,
+                "shoulder-diameter": 4,
+                "shoulder-length": 25
+            },
+            "guid": "97836cf3-bf54-45c0-9786-bb836a155c5b",
+            "holder": {
+                "description": "ER16_ColletChuck_Assembled",
+                "expressions": {
+                    "tool_holderGaugeLength": "segment_1_height + segment_2_height + segment_3_height + segment_4_height + segment_5_height + segment_6_height + segment_7_height + segment_8_height + segment_9_height + segment_10_height + segment_11_height + segment_12_height + segment_13_height + segment_14_height + segment_15_height + segment_16_height + segment_17_height + segment_18_height + segment_19_height + segment_20_height + segment_21_height + segment_22_height + segment_23_height + segment_24_height + segment_25_height + segment_26_height + segment_27_height + segment_28_height + segment_29_height + segment_30_height + segment_31_height + segment_32_height + segment_33_height + segment_34_height + segment_35_height + segment_36_height + segment_37_height + segment_38_height + segment_39_height + segment_40_height + segment_41_height + segment_42_height + segment_43_height + segment_44_height + segment_45_height + segment_46_height + segment_47_height + segment_48_height + segment_49_height + segment_50_height + segment_51_height + segment_52_height + segment_53_height + segment_54_height + segment_55_height + segment_56_height + segment_57_height + segment_58_height + segment_59_height + segment_60_height + segment_61_height + segment_62_height + segment_63_height + segment_64_height + segment_65_height + segment_66_height + segment_67_height + segment_68_height + segment_69_height + segment_70_height + segment_71_height + segment_72_height + segment_73_height + segment_74_height + segment_75_height"
+                },
+                "gaugeLength": 40.53,
+                "guid": "",
+                "last_modified": 1570310972973,
+                "product-id": "",
+                "product-link": "",
+                "reference_guid": "00000000-0000-0000-0000-965092880402",
+                "segments": [
+                    {
+                        "height": 0.34,
+                        "lower-diameter": 18.685,
+                        "upper-diameter": 20.553
+                    },
+                    {
+                        "height": 0.64,
+                        "lower-diameter": 20.773,
+                        "upper-diameter": 23.864
+                    },
+                    {
+                        "height": 0.35,
+                        "lower-diameter": 23.882,
+                        "upper-diameter": 23.882
+                    },
+                    {
+                        "height": 1.71,
+                        "lower-diameter": 23.882,
+                        "upper-diameter": 23.882
+                    },
+                    {
+                        "height": 0.37,
+                        "lower-diameter": 23.882,
+                        "upper-diameter": 23.882
+                    },
+                    {
+                        "height": 0.45,
+                        "lower-diameter": 23.882,
+                        "upper-diameter": 23.882
+                    },
+                    {
+                        "height": 0.51,
+                        "lower-diameter": 23.882,
+                        "upper-diameter": 23.882
+                    },
+                    {
+                        "height": 1.48,
+                        "lower-diameter": 23.882,
+                        "upper-diameter": 23.882
+                    },
+                    {
+                        "height": 0.65,
+                        "lower-diameter": 23.882,
+                        "upper-diameter": 23.882
+                    },
+                    {
+                        "height": 0.81,
+                        "lower-diameter": 23.882,
+                        "upper-diameter": 23.882
+                    },
+                    {
+                        "height": 0.68,
+                        "lower-diameter": 23.888,
+                        "upper-diameter": 24.225
+                    },
+                    {
+                        "height": 0.26,
+                        "lower-diameter": 24.225,
+                        "upper-diameter": 24.299
+                    },
+                    {
+                        "height": 0.11,
+                        "lower-diameter": 24.32,
+                        "upper-diameter": 24.32
+                    },
+                    {
+                        "height": 0.23,
+                        "lower-diameter": 24.32,
+                        "upper-diameter": 24.32
+                    },
+                    {
+                        "height": 0.26,
+                        "lower-diameter": 24.32,
+                        "upper-diameter": 24.32
+                    },
+                    {
+                        "height": 0.22,
+                        "lower-diameter": 24.32,
+                        "upper-diameter": 24.32
+                    },
+                    {
+                        "height": 0.25,
+                        "lower-diameter": 24.32,
+                        "upper-diameter": 24.32
+                    },
+                    {
+                        "height": 0.21,
+                        "lower-diameter": 24.32,
+                        "upper-diameter": 24.32
+                    },
+                    {
+                        "height": 0.1,
+                        "lower-diameter": 24.32,
+                        "upper-diameter": 24.32
+                    },
+                    {
+                        "height": 0.11,
+                        "lower-diameter": 24.32,
+                        "upper-diameter": 24.32
+                    },
+                    {
+                        "height": 0.16,
+                        "lower-diameter": 24.32,
+                        "upper-diameter": 24.32
+                    },
+                    {
+                        "height": 0.12,
+                        "lower-diameter": 24.32,
+                        "upper-diameter": 24.32
+                    },
+                    {
+                        "height": 0.15,
+                        "lower-diameter": 24.32,
+                        "upper-diameter": 24.32
+                    },
+                    {
+                        "height": 0.2,
+                        "lower-diameter": 24.32,
+                        "upper-diameter": 24.32
+                    },
+                    {
+                        "height": 0.16,
+                        "lower-diameter": 24.32,
+                        "upper-diameter": 24.32
+                    },
+                    {
+                        "height": 0.12,
+                        "lower-diameter": 24.32,
+                        "upper-diameter": 24.32
+                    },
+                    {
+                        "height": 0.15,
+                        "lower-diameter": 24.32,
+                        "upper-diameter": 24.32
+                    },
+                    {
+                        "height": 0.2,
+                        "lower-diameter": 24.32,
+                        "upper-diameter": 24.32
+                    },
+                    {
+                        "height": 0.16,
+                        "lower-diameter": 24.32,
+                        "upper-diameter": 24.32
+                    },
+                    {
+                        "height": 0.12,
+                        "lower-diameter": 24.32,
+                        "upper-diameter": 24.32
+                    },
+                    {
+                        "height": 0.15,
+                        "lower-diameter": 24.32,
+                        "upper-diameter": 24.32
+                    },
+                    {
+                        "height": 0.2,
+                        "lower-diameter": 24.32,
+                        "upper-diameter": 24.32
+                    },
+                    {
+                        "height": 0.16,
+                        "lower-diameter": 24.32,
+                        "upper-diameter": 24.32
+                    },
+                    {
+                        "height": 0.12,
+                        "lower-diameter": 24.32,
+                        "upper-diameter": 24.32
+                    },
+                    {
+                        "height": 0.15,
+                        "lower-diameter": 24.32,
+                        "upper-diameter": 24.32
+                    },
+                    {
+                        "height": 0.2,
+                        "lower-diameter": 24.32,
+                        "upper-diameter": 24.32
+                    },
+                    {
+                        "height": 0.16,
+                        "lower-diameter": 24.32,
+                        "upper-diameter": 24.32
+                    },
+                    {
+                        "height": 0.12,
+                        "lower-diameter": 24.32,
+                        "upper-diameter": 24.32
+                    },
+                    {
+                        "height": 0.15,
+                        "lower-diameter": 24.32,
+                        "upper-diameter": 24.32
+                    },
+                    {
+                        "height": 0.2,
+                        "lower-diameter": 24.32,
+                        "upper-diameter": 24.32
+                    },
+                    {
+                        "height": 0.16,
+                        "lower-diameter": 24.32,
+                        "upper-diameter": 24.32
+                    },
+                    {
+                        "height": 0.12,
+                        "lower-diameter": 24.32,
+                        "upper-diameter": 24.32
+                    },
+                    {
+                        "height": 0.15,
+                        "lower-diameter": 24.32,
+                        "upper-diameter": 24.32
+                    },
+                    {
+                        "height": 0.2,
+                        "lower-diameter": 24.32,
+                        "upper-diameter": 24.32
+                    },
+                    {
+                        "height": 0.16,
+                        "lower-diameter": 24.32,
+                        "upper-diameter": 24.32
+                    },
+                    {
+                        "height": 0.12,
+                        "lower-diameter": 24.32,
+                        "upper-diameter": 24.32
+                    },
+                    {
+                        "height": 0.15,
+                        "lower-diameter": 24.32,
+                        "upper-diameter": 24.32
+                    },
+                    {
+                        "height": 0.2,
+                        "lower-diameter": 24.32,
+                        "upper-diameter": 24.32
+                    },
+                    {
+                        "height": 0.16,
+                        "lower-diameter": 24.32,
+                        "upper-diameter": 24.32
+                    },
+                    {
+                        "height": 0.12,
+                        "lower-diameter": 24.32,
+                        "upper-diameter": 24.32
+                    },
+                    {
+                        "height": 0.15,
+                        "lower-diameter": 24.32,
+                        "upper-diameter": 24.32
+                    },
+                    {
+                        "height": 0.14,
+                        "lower-diameter": 24.218,
+                        "upper-diameter": 24.014
+                    },
+                    {
+                        "height": 0.11,
+                        "lower-diameter": 23.97,
+                        "upper-diameter": 23.519
+                    },
+                    {
+                        "height": 0.22,
+                        "lower-diameter": 18.41,
+                        "upper-diameter": 18.338
+                    },
+                    {
+                        "height": 0.31,
+                        "lower-diameter": 18.331,
+                        "upper-diameter": 18.35
+                    },
+                    {
+                        "height": 0.11,
+                        "lower-diameter": 18.35,
+                        "upper-diameter": 18.359
+                    },
+                    {
+                        "height": 0.3,
+                        "lower-diameter": 18.358,
+                        "upper-diameter": 18.391
+                    },
+                    {
+                        "height": 0.22,
+                        "lower-diameter": 18.475,
+                        "upper-diameter": 18.81
+                    },
+                    {
+                        "height": 1.52,
+                        "lower-diameter": 18.835,
+                        "upper-diameter": 18.92
+                    },
+                    {
+                        "height": 0.15,
+                        "lower-diameter": 18.92,
+                        "upper-diameter": 18.988
+                    },
+                    {
+                        "height": 0.17,
+                        "lower-diameter": 19.008,
+                        "upper-diameter": 19.454
+                    },
+                    {
+                        "height": 2.21,
+                        "lower-diameter": 20.02,
+                        "upper-diameter": 20.02
+                    },
+                    {
+                        "height": 0.77,
+                        "lower-diameter": 20.02,
+                        "upper-diameter": 20.02
+                    },
+                    {
+                        "height": 0.38,
+                        "lower-diameter": 20.02,
+                        "upper-diameter": 20.02
+                    },
+                    {
+                        "height": 1.8,
+                        "lower-diameter": 20.02,
+                        "upper-diameter": 20.02
+                    },
+                    {
+                        "height": 0.67,
+                        "lower-diameter": 20.02,
+                        "upper-diameter": 20.02
+                    },
+                    {
+                        "height": 1.2,
+                        "lower-diameter": 20.02,
+                        "upper-diameter": 20.02
+                    },
+                    {
+                        "height": 4.29,
+                        "lower-diameter": 20.02,
+                        "upper-diameter": 20.02
+                    },
+                    {
+                        "height": 3.03,
+                        "lower-diameter": 20.02,
+                        "upper-diameter": 20.02
+                    },
+                    {
+                        "height": 0.28,
+                        "lower-diameter": 20.02,
+                        "upper-diameter": 20.02
+                    },
+                    {
+                        "height": 1.63,
+                        "lower-diameter": 20.02,
+                        "upper-diameter": 20.02
+                    },
+                    {
+                        "height": 1.63,
+                        "lower-diameter": 20.02,
+                        "upper-diameter": 20.02
+                    },
+                    {
+                        "height": 0.28,
+                        "lower-diameter": 20.02,
+                        "upper-diameter": 20.02
+                    },
+                    {
+                        "height": 4.34,
+                        "lower-diameter": 20.02,
+                        "upper-diameter": 20.02
+                    },
+                    {
+                        "height": 0.19,
+                        "lower-diameter": 20.02,
+                        "upper-diameter": 19.64
+                    }
+                ],
+                "type": "holder",
+                "unit": "millimeters",
+                "vendor": ""
+            },
+            "post-process": {
+                "break-control": false,
+                "comment": "Schaftfraeser 4mm (Holz, GFK, CFK)",
+                "diameter-offset": 45,
+                "length-offset": 45,
+                "live": false,
+                "manual-tool-change": true,
+                "number": 45,
+                "turret": 0
+            },
+            "product-id": "",
+            "product-link": "",
+            "shaft": {
+                "segments": [
+                    {
+                        "height": 3,
+                        "lower-diameter": 4,
+                        "upper-diameter": 4
+                    }
+                ],
+                "type": "shaft"
+            },
+            "start-values": {
+                "presets": [
+                    {
+                        "description": null,
+                        "expressions": {
+                            "tool_feedCutting": "2000mm/min",
+                            "tool_feedEntry": "1500 mmpm",
+                            "tool_feedExit": "2500 mmpm",
+                            "tool_feedPlunge": "1000 mmpm",
+                            "tool_feedRamp": "1500 mmpm",
+                            "tool_spindleSpeed": "24000 rpm"
+                        },
+                        "f_n": 0.041666666666666664,
+                        "f_z": 0.008333333333333333,
+                        "guid": "2f1db714-6ace-45fa-9e2b-4bd858d4c018",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 24000,
+                        "n_ramp": 24000,
+                        "name": "Vorgabe-Voreinstellung",
+                        "tool-coolant": "disabled",
+                        "use-stepdown": false,
+                        "use-stepover": false,
+                        "v_c": 301.59289474462014,
+                        "v_f": 2000,
+                        "v_f_leadIn": 1500,
+                        "v_f_leadOut": 2500,
+                        "v_f_plunge": 1000,
+                        "v_f_ramp": 1500,
+                        "v_f_transition": 2000
+                    }
+                ]
+            },
+            "type": "flat end mill",
+            "unit": "millimeters",
+            "vendor": ""
+        },
+        {
+            "BMC": "carbide",
+            "GRADE": "Mill Generic",
+            "description": "4mm (Holz, GFK, CFK)",
+            "expressions": {
+                "tool_bodyLength": "35 mm",
+                "tool_comment": "'Schaftfraeser 4mm (Holz, GFK, CFK)'",
+                "tool_description": "'4mm (Holz, GFK, CFK)'",
+                "tool_diameter": "4 mm",
+                "tool_fluteLength": "32 mm",
+                "tool_material": "'carbide'",
+                "tool_number": "46",
+                "tool_numberOfFlutes": "7",
+                "tool_overallLength": "55 mm",
+                "tool_shoulderLength": "32 mm"
+            },
+            "geometry": {
+                "CSP": false,
+                "DC": 4,
+                "HAND": true,
+                "LB": 35,
+                "LCF": 32,
+                "NOF": 7,
+                "OAL": 55,
+                "SFDM": 4,
+                "assemblyGaugeLength": 75.53,
+                "shoulder-diameter": 4,
+                "shoulder-length": 32
+            },
+            "guid": "a1242b0d-07aa-40df-aa85-57e3d6aeb6f8",
+            "holder": {
+                "description": "ER16_ColletChuck_Assembled",
+                "expressions": {
+                    "tool_holderGaugeLength": "segment_1_height + segment_2_height + segment_3_height + segment_4_height + segment_5_height + segment_6_height + segment_7_height + segment_8_height + segment_9_height + segment_10_height + segment_11_height + segment_12_height + segment_13_height + segment_14_height + segment_15_height + segment_16_height + segment_17_height + segment_18_height + segment_19_height + segment_20_height + segment_21_height + segment_22_height + segment_23_height + segment_24_height + segment_25_height + segment_26_height + segment_27_height + segment_28_height + segment_29_height + segment_30_height + segment_31_height + segment_32_height + segment_33_height + segment_34_height + segment_35_height + segment_36_height + segment_37_height + segment_38_height + segment_39_height + segment_40_height + segment_41_height + segment_42_height + segment_43_height + segment_44_height + segment_45_height + segment_46_height + segment_47_height + segment_48_height + segment_49_height + segment_50_height + segment_51_height + segment_52_height + segment_53_height + segment_54_height + segment_55_height + segment_56_height + segment_57_height + segment_58_height + segment_59_height + segment_60_height + segment_61_height + segment_62_height + segment_63_height + segment_64_height + segment_65_height + segment_66_height + segment_67_height + segment_68_height + segment_69_height + segment_70_height + segment_71_height + segment_72_height + segment_73_height + segment_74_height + segment_75_height"
+                },
+                "gaugeLength": 40.53,
+                "guid": "",
+                "last_modified": 1570310972973,
+                "product-id": "",
+                "product-link": "",
+                "reference_guid": "00000000-0000-0000-0000-965092880402",
+                "segments": [
+                    {
+                        "height": 0.34,
+                        "lower-diameter": 18.685,
+                        "upper-diameter": 20.553
+                    },
+                    {
+                        "height": 0.64,
+                        "lower-diameter": 20.773,
+                        "upper-diameter": 23.864
+                    },
+                    {
+                        "height": 0.35,
+                        "lower-diameter": 23.882,
+                        "upper-diameter": 23.882
+                    },
+                    {
+                        "height": 1.71,
+                        "lower-diameter": 23.882,
+                        "upper-diameter": 23.882
+                    },
+                    {
+                        "height": 0.37,
+                        "lower-diameter": 23.882,
+                        "upper-diameter": 23.882
+                    },
+                    {
+                        "height": 0.45,
+                        "lower-diameter": 23.882,
+                        "upper-diameter": 23.882
+                    },
+                    {
+                        "height": 0.51,
+                        "lower-diameter": 23.882,
+                        "upper-diameter": 23.882
+                    },
+                    {
+                        "height": 1.48,
+                        "lower-diameter": 23.882,
+                        "upper-diameter": 23.882
+                    },
+                    {
+                        "height": 0.65,
+                        "lower-diameter": 23.882,
+                        "upper-diameter": 23.882
+                    },
+                    {
+                        "height": 0.81,
+                        "lower-diameter": 23.882,
+                        "upper-diameter": 23.882
+                    },
+                    {
+                        "height": 0.68,
+                        "lower-diameter": 23.888,
+                        "upper-diameter": 24.225
+                    },
+                    {
+                        "height": 0.26,
+                        "lower-diameter": 24.225,
+                        "upper-diameter": 24.299
+                    },
+                    {
+                        "height": 0.11,
+                        "lower-diameter": 24.32,
+                        "upper-diameter": 24.32
+                    },
+                    {
+                        "height": 0.23,
+                        "lower-diameter": 24.32,
+                        "upper-diameter": 24.32
+                    },
+                    {
+                        "height": 0.26,
+                        "lower-diameter": 24.32,
+                        "upper-diameter": 24.32
+                    },
+                    {
+                        "height": 0.22,
+                        "lower-diameter": 24.32,
+                        "upper-diameter": 24.32
+                    },
+                    {
+                        "height": 0.25,
+                        "lower-diameter": 24.32,
+                        "upper-diameter": 24.32
+                    },
+                    {
+                        "height": 0.21,
+                        "lower-diameter": 24.32,
+                        "upper-diameter": 24.32
+                    },
+                    {
+                        "height": 0.1,
+                        "lower-diameter": 24.32,
+                        "upper-diameter": 24.32
+                    },
+                    {
+                        "height": 0.11,
+                        "lower-diameter": 24.32,
+                        "upper-diameter": 24.32
+                    },
+                    {
+                        "height": 0.16,
+                        "lower-diameter": 24.32,
+                        "upper-diameter": 24.32
+                    },
+                    {
+                        "height": 0.12,
+                        "lower-diameter": 24.32,
+                        "upper-diameter": 24.32
+                    },
+                    {
+                        "height": 0.15,
+                        "lower-diameter": 24.32,
+                        "upper-diameter": 24.32
+                    },
+                    {
+                        "height": 0.2,
+                        "lower-diameter": 24.32,
+                        "upper-diameter": 24.32
+                    },
+                    {
+                        "height": 0.16,
+                        "lower-diameter": 24.32,
+                        "upper-diameter": 24.32
+                    },
+                    {
+                        "height": 0.12,
+                        "lower-diameter": 24.32,
+                        "upper-diameter": 24.32
+                    },
+                    {
+                        "height": 0.15,
+                        "lower-diameter": 24.32,
+                        "upper-diameter": 24.32
+                    },
+                    {
+                        "height": 0.2,
+                        "lower-diameter": 24.32,
+                        "upper-diameter": 24.32
+                    },
+                    {
+                        "height": 0.16,
+                        "lower-diameter": 24.32,
+                        "upper-diameter": 24.32
+                    },
+                    {
+                        "height": 0.12,
+                        "lower-diameter": 24.32,
+                        "upper-diameter": 24.32
+                    },
+                    {
+                        "height": 0.15,
+                        "lower-diameter": 24.32,
+                        "upper-diameter": 24.32
+                    },
+                    {
+                        "height": 0.2,
+                        "lower-diameter": 24.32,
+                        "upper-diameter": 24.32
+                    },
+                    {
+                        "height": 0.16,
+                        "lower-diameter": 24.32,
+                        "upper-diameter": 24.32
+                    },
+                    {
+                        "height": 0.12,
+                        "lower-diameter": 24.32,
+                        "upper-diameter": 24.32
+                    },
+                    {
+                        "height": 0.15,
+                        "lower-diameter": 24.32,
+                        "upper-diameter": 24.32
+                    },
+                    {
+                        "height": 0.2,
+                        "lower-diameter": 24.32,
+                        "upper-diameter": 24.32
+                    },
+                    {
+                        "height": 0.16,
+                        "lower-diameter": 24.32,
+                        "upper-diameter": 24.32
+                    },
+                    {
+                        "height": 0.12,
+                        "lower-diameter": 24.32,
+                        "upper-diameter": 24.32
+                    },
+                    {
+                        "height": 0.15,
+                        "lower-diameter": 24.32,
+                        "upper-diameter": 24.32
+                    },
+                    {
+                        "height": 0.2,
+                        "lower-diameter": 24.32,
+                        "upper-diameter": 24.32
+                    },
+                    {
+                        "height": 0.16,
+                        "lower-diameter": 24.32,
+                        "upper-diameter": 24.32
+                    },
+                    {
+                        "height": 0.12,
+                        "lower-diameter": 24.32,
+                        "upper-diameter": 24.32
+                    },
+                    {
+                        "height": 0.15,
+                        "lower-diameter": 24.32,
+                        "upper-diameter": 24.32
+                    },
+                    {
+                        "height": 0.2,
+                        "lower-diameter": 24.32,
+                        "upper-diameter": 24.32
+                    },
+                    {
+                        "height": 0.16,
+                        "lower-diameter": 24.32,
+                        "upper-diameter": 24.32
+                    },
+                    {
+                        "height": 0.12,
+                        "lower-diameter": 24.32,
+                        "upper-diameter": 24.32
+                    },
+                    {
+                        "height": 0.15,
+                        "lower-diameter": 24.32,
+                        "upper-diameter": 24.32
+                    },
+                    {
+                        "height": 0.2,
+                        "lower-diameter": 24.32,
+                        "upper-diameter": 24.32
+                    },
+                    {
+                        "height": 0.16,
+                        "lower-diameter": 24.32,
+                        "upper-diameter": 24.32
+                    },
+                    {
+                        "height": 0.12,
+                        "lower-diameter": 24.32,
+                        "upper-diameter": 24.32
+                    },
+                    {
+                        "height": 0.15,
+                        "lower-diameter": 24.32,
+                        "upper-diameter": 24.32
+                    },
+                    {
+                        "height": 0.14,
+                        "lower-diameter": 24.218,
+                        "upper-diameter": 24.014
+                    },
+                    {
+                        "height": 0.11,
+                        "lower-diameter": 23.97,
+                        "upper-diameter": 23.519
+                    },
+                    {
+                        "height": 0.22,
+                        "lower-diameter": 18.41,
+                        "upper-diameter": 18.338
+                    },
+                    {
+                        "height": 0.31,
+                        "lower-diameter": 18.331,
+                        "upper-diameter": 18.35
+                    },
+                    {
+                        "height": 0.11,
+                        "lower-diameter": 18.35,
+                        "upper-diameter": 18.359
+                    },
+                    {
+                        "height": 0.3,
+                        "lower-diameter": 18.358,
+                        "upper-diameter": 18.391
+                    },
+                    {
+                        "height": 0.22,
+                        "lower-diameter": 18.475,
+                        "upper-diameter": 18.81
+                    },
+                    {
+                        "height": 1.52,
+                        "lower-diameter": 18.835,
+                        "upper-diameter": 18.92
+                    },
+                    {
+                        "height": 0.15,
+                        "lower-diameter": 18.92,
+                        "upper-diameter": 18.988
+                    },
+                    {
+                        "height": 0.17,
+                        "lower-diameter": 19.008,
+                        "upper-diameter": 19.454
+                    },
+                    {
+                        "height": 2.21,
+                        "lower-diameter": 20.02,
+                        "upper-diameter": 20.02
+                    },
+                    {
+                        "height": 0.77,
+                        "lower-diameter": 20.02,
+                        "upper-diameter": 20.02
+                    },
+                    {
+                        "height": 0.38,
+                        "lower-diameter": 20.02,
+                        "upper-diameter": 20.02
+                    },
+                    {
+                        "height": 1.8,
+                        "lower-diameter": 20.02,
+                        "upper-diameter": 20.02
+                    },
+                    {
+                        "height": 0.67,
+                        "lower-diameter": 20.02,
+                        "upper-diameter": 20.02
+                    },
+                    {
+                        "height": 1.2,
+                        "lower-diameter": 20.02,
+                        "upper-diameter": 20.02
+                    },
+                    {
+                        "height": 4.29,
+                        "lower-diameter": 20.02,
+                        "upper-diameter": 20.02
+                    },
+                    {
+                        "height": 3.03,
+                        "lower-diameter": 20.02,
+                        "upper-diameter": 20.02
+                    },
+                    {
+                        "height": 0.28,
+                        "lower-diameter": 20.02,
+                        "upper-diameter": 20.02
+                    },
+                    {
+                        "height": 1.63,
+                        "lower-diameter": 20.02,
+                        "upper-diameter": 20.02
+                    },
+                    {
+                        "height": 1.63,
+                        "lower-diameter": 20.02,
+                        "upper-diameter": 20.02
+                    },
+                    {
+                        "height": 0.28,
+                        "lower-diameter": 20.02,
+                        "upper-diameter": 20.02
+                    },
+                    {
+                        "height": 4.34,
+                        "lower-diameter": 20.02,
+                        "upper-diameter": 20.02
+                    },
+                    {
+                        "height": 0.19,
+                        "lower-diameter": 20.02,
+                        "upper-diameter": 19.64
+                    }
+                ],
+                "type": "holder",
+                "unit": "millimeters",
+                "vendor": ""
+            },
+            "post-process": {
+                "break-control": false,
+                "comment": "Schaftfraeser 4mm (Holz, GFK, CFK)",
+                "diameter-offset": 46,
+                "length-offset": 46,
+                "live": false,
+                "manual-tool-change": true,
+                "number": 46,
+                "turret": 0
+            },
+            "product-id": "",
+            "product-link": "",
+            "shaft": {
+                "segments": [
+                    {
+                        "height": 3,
+                        "lower-diameter": 4,
+                        "upper-diameter": 4
+                    }
+                ],
+                "type": "shaft"
+            },
+            "start-values": {
+                "presets": [
+                    {
+                        "description": null,
+                        "expressions": {
+                            "tool_feedCutting": "2000mm/min",
+                            "tool_feedEntry": "1500 mmpm",
+                            "tool_feedExit": "2500 mmpm",
+                            "tool_feedPlunge": "1000 mmpm",
+                            "tool_feedRamp": "1500 mmpm",
+                            "tool_spindleSpeed": "24000 rpm"
+                        },
+                        "f_n": 0.041666666666666664,
+                        "f_z": 0.011904761904761904,
+                        "guid": "2f1db714-6ace-45fa-9e2b-4bd858d4c018",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 24000,
+                        "n_ramp": 24000,
+                        "name": "Vorgabe-Voreinstellung",
+                        "tool-coolant": "disabled",
+                        "use-stepdown": false,
+                        "use-stepover": false,
+                        "v_c": 301.59289474462014,
+                        "v_f": 2000,
+                        "v_f_leadIn": 1500,
+                        "v_f_leadOut": 2500,
+                        "v_f_plunge": 1000,
+                        "v_f_ramp": 1500,
+                        "v_f_transition": 2000
+                    }
+                ]
+            },
+            "type": "flat end mill",
+            "unit": "millimeters",
+            "vendor": ""
+        },
+        {
+            "BMC": "hss",
+            "description": "Radienfraeser 6mm",
+            "expressions": {
+                "tool_bodyLength": "35 mm",
+                "tool_comment": "'Radienfraeser 6mm'",
+                "tool_cornerRadius": "6 mm",
+                "tool_description": "'Radienfraeser 6mm'",
+                "tool_diameter": "(12,5) mm",
+                "tool_fluteLength": "6 mm",
+                "tool_live": "false",
+                "tool_number": "47",
+                "tool_overallLength": "48 mm",
+                "tool_shaftDiameter": "8 mm",
+                "tool_shoulderLength": "14 mm",
+                "tool_tipLength": "0 mm"
+            },
+            "geometry": {
+                "CSP": false,
+                "DC": 12.5,
+                "HAND": true,
+                "LB": 35,
+                "LCF": 6,
+                "NOF": 4,
+                "OAL": 48,
+                "RE": 6,
+                "SFDM": 8,
+                "assemblyGaugeLength": 75.53,
+                "shoulder-diameter": 8,
+                "shoulder-length": 14,
+                "tip-length": 0
+            },
+            "guid": "07f42200-1e0c-4373-8967-f34945da7da1",
+            "holder": {
+                "description": "ER16_ColletChuck_Assembled",
+                "expressions": {
+                    "tool_holderGaugeLength": "segment_1_height + segment_2_height + segment_3_height + segment_4_height + segment_5_height + segment_6_height + segment_7_height + segment_8_height + segment_9_height + segment_10_height + segment_11_height + segment_12_height + segment_13_height + segment_14_height + segment_15_height + segment_16_height + segment_17_height + segment_18_height + segment_19_height + segment_20_height + segment_21_height + segment_22_height + segment_23_height + segment_24_height + segment_25_height + segment_26_height + segment_27_height + segment_28_height + segment_29_height + segment_30_height + segment_31_height + segment_32_height + segment_33_height + segment_34_height + segment_35_height + segment_36_height + segment_37_height + segment_38_height + segment_39_height + segment_40_height + segment_41_height + segment_42_height + segment_43_height + segment_44_height + segment_45_height + segment_46_height + segment_47_height + segment_48_height + segment_49_height + segment_50_height + segment_51_height + segment_52_height + segment_53_height + segment_54_height + segment_55_height + segment_56_height + segment_57_height + segment_58_height + segment_59_height + segment_60_height + segment_61_height + segment_62_height + segment_63_height + segment_64_height + segment_65_height + segment_66_height + segment_67_height + segment_68_height + segment_69_height + segment_70_height + segment_71_height + segment_72_height + segment_73_height + segment_74_height + segment_75_height"
+                },
+                "gaugeLength": 40.53,
+                "guid": "00000000-0000-0000-0000-965092880402",
+                "last_modified": 1570310972973,
+                "product-id": "",
+                "product-link": "",
+                "reference_guid": "00000000-0000-0000-0000-965092880402",
+                "segments": [
+                    {
+                        "height": 0.34,
+                        "lower-diameter": 18.685,
+                        "upper-diameter": 20.553
+                    },
+                    {
+                        "height": 0.64,
+                        "lower-diameter": 20.773,
+                        "upper-diameter": 23.864
+                    },
+                    {
+                        "height": 0.35,
+                        "lower-diameter": 23.882,
+                        "upper-diameter": 23.882
+                    },
+                    {
+                        "height": 1.71,
+                        "lower-diameter": 23.882,
+                        "upper-diameter": 23.882
+                    },
+                    {
+                        "height": 0.37,
+                        "lower-diameter": 23.882,
+                        "upper-diameter": 23.882
+                    },
+                    {
+                        "height": 0.45,
+                        "lower-diameter": 23.882,
+                        "upper-diameter": 23.882
+                    },
+                    {
+                        "height": 0.51,
+                        "lower-diameter": 23.882,
+                        "upper-diameter": 23.882
+                    },
+                    {
+                        "height": 1.48,
+                        "lower-diameter": 23.882,
+                        "upper-diameter": 23.882
+                    },
+                    {
+                        "height": 0.65,
+                        "lower-diameter": 23.882,
+                        "upper-diameter": 23.882
+                    },
+                    {
+                        "height": 0.81,
+                        "lower-diameter": 23.882,
+                        "upper-diameter": 23.882
+                    },
+                    {
+                        "height": 0.68,
+                        "lower-diameter": 23.888,
+                        "upper-diameter": 24.225
+                    },
+                    {
+                        "height": 0.26,
+                        "lower-diameter": 24.225,
+                        "upper-diameter": 24.299
+                    },
+                    {
+                        "height": 0.11,
+                        "lower-diameter": 24.32,
+                        "upper-diameter": 24.32
+                    },
+                    {
+                        "height": 0.23,
+                        "lower-diameter": 24.32,
+                        "upper-diameter": 24.32
+                    },
+                    {
+                        "height": 0.26,
+                        "lower-diameter": 24.32,
+                        "upper-diameter": 24.32
+                    },
+                    {
+                        "height": 0.22,
+                        "lower-diameter": 24.32,
+                        "upper-diameter": 24.32
+                    },
+                    {
+                        "height": 0.25,
+                        "lower-diameter": 24.32,
+                        "upper-diameter": 24.32
+                    },
+                    {
+                        "height": 0.21,
+                        "lower-diameter": 24.32,
+                        "upper-diameter": 24.32
+                    },
+                    {
+                        "height": 0.1,
+                        "lower-diameter": 24.32,
+                        "upper-diameter": 24.32
+                    },
+                    {
+                        "height": 0.11,
+                        "lower-diameter": 24.32,
+                        "upper-diameter": 24.32
+                    },
+                    {
+                        "height": 0.16,
+                        "lower-diameter": 24.32,
+                        "upper-diameter": 24.32
+                    },
+                    {
+                        "height": 0.12,
+                        "lower-diameter": 24.32,
+                        "upper-diameter": 24.32
+                    },
+                    {
+                        "height": 0.15,
+                        "lower-diameter": 24.32,
+                        "upper-diameter": 24.32
+                    },
+                    {
+                        "height": 0.2,
+                        "lower-diameter": 24.32,
+                        "upper-diameter": 24.32
+                    },
+                    {
+                        "height": 0.16,
+                        "lower-diameter": 24.32,
+                        "upper-diameter": 24.32
+                    },
+                    {
+                        "height": 0.12,
+                        "lower-diameter": 24.32,
+                        "upper-diameter": 24.32
+                    },
+                    {
+                        "height": 0.15,
+                        "lower-diameter": 24.32,
+                        "upper-diameter": 24.32
+                    },
+                    {
+                        "height": 0.2,
+                        "lower-diameter": 24.32,
+                        "upper-diameter": 24.32
+                    },
+                    {
+                        "height": 0.16,
+                        "lower-diameter": 24.32,
+                        "upper-diameter": 24.32
+                    },
+                    {
+                        "height": 0.12,
+                        "lower-diameter": 24.32,
+                        "upper-diameter": 24.32
+                    },
+                    {
+                        "height": 0.15,
+                        "lower-diameter": 24.32,
+                        "upper-diameter": 24.32
+                    },
+                    {
+                        "height": 0.2,
+                        "lower-diameter": 24.32,
+                        "upper-diameter": 24.32
+                    },
+                    {
+                        "height": 0.16,
+                        "lower-diameter": 24.32,
+                        "upper-diameter": 24.32
+                    },
+                    {
+                        "height": 0.12,
+                        "lower-diameter": 24.32,
+                        "upper-diameter": 24.32
+                    },
+                    {
+                        "height": 0.15,
+                        "lower-diameter": 24.32,
+                        "upper-diameter": 24.32
+                    },
+                    {
+                        "height": 0.2,
+                        "lower-diameter": 24.32,
+                        "upper-diameter": 24.32
+                    },
+                    {
+                        "height": 0.16,
+                        "lower-diameter": 24.32,
+                        "upper-diameter": 24.32
+                    },
+                    {
+                        "height": 0.12,
+                        "lower-diameter": 24.32,
+                        "upper-diameter": 24.32
+                    },
+                    {
+                        "height": 0.15,
+                        "lower-diameter": 24.32,
+                        "upper-diameter": 24.32
+                    },
+                    {
+                        "height": 0.2,
+                        "lower-diameter": 24.32,
+                        "upper-diameter": 24.32
+                    },
+                    {
+                        "height": 0.16,
+                        "lower-diameter": 24.32,
+                        "upper-diameter": 24.32
+                    },
+                    {
+                        "height": 0.12,
+                        "lower-diameter": 24.32,
+                        "upper-diameter": 24.32
+                    },
+                    {
+                        "height": 0.15,
+                        "lower-diameter": 24.32,
+                        "upper-diameter": 24.32
+                    },
+                    {
+                        "height": 0.2,
+                        "lower-diameter": 24.32,
+                        "upper-diameter": 24.32
+                    },
+                    {
+                        "height": 0.16,
+                        "lower-diameter": 24.32,
+                        "upper-diameter": 24.32
+                    },
+                    {
+                        "height": 0.12,
+                        "lower-diameter": 24.32,
+                        "upper-diameter": 24.32
+                    },
+                    {
+                        "height": 0.15,
+                        "lower-diameter": 24.32,
+                        "upper-diameter": 24.32
+                    },
+                    {
+                        "height": 0.2,
+                        "lower-diameter": 24.32,
+                        "upper-diameter": 24.32
+                    },
+                    {
+                        "height": 0.16,
+                        "lower-diameter": 24.32,
+                        "upper-diameter": 24.32
+                    },
+                    {
+                        "height": 0.12,
+                        "lower-diameter": 24.32,
+                        "upper-diameter": 24.32
+                    },
+                    {
+                        "height": 0.15,
+                        "lower-diameter": 24.32,
+                        "upper-diameter": 24.32
+                    },
+                    {
+                        "height": 0.14,
+                        "lower-diameter": 24.218,
+                        "upper-diameter": 24.014
+                    },
+                    {
+                        "height": 0.11,
+                        "lower-diameter": 23.97,
+                        "upper-diameter": 23.519
+                    },
+                    {
+                        "height": 0.22,
+                        "lower-diameter": 18.41,
+                        "upper-diameter": 18.338
+                    },
+                    {
+                        "height": 0.31,
+                        "lower-diameter": 18.331,
+                        "upper-diameter": 18.35
+                    },
+                    {
+                        "height": 0.11,
+                        "lower-diameter": 18.35,
+                        "upper-diameter": 18.359
+                    },
+                    {
+                        "height": 0.3,
+                        "lower-diameter": 18.358,
+                        "upper-diameter": 18.391
+                    },
+                    {
+                        "height": 0.22,
+                        "lower-diameter": 18.475,
+                        "upper-diameter": 18.81
+                    },
+                    {
+                        "height": 1.52,
+                        "lower-diameter": 18.835,
+                        "upper-diameter": 18.92
+                    },
+                    {
+                        "height": 0.15,
+                        "lower-diameter": 18.92,
+                        "upper-diameter": 18.988
+                    },
+                    {
+                        "height": 0.17,
+                        "lower-diameter": 19.008,
+                        "upper-diameter": 19.454
+                    },
+                    {
+                        "height": 2.21,
+                        "lower-diameter": 20.02,
+                        "upper-diameter": 20.02
+                    },
+                    {
+                        "height": 0.77,
+                        "lower-diameter": 20.02,
+                        "upper-diameter": 20.02
+                    },
+                    {
+                        "height": 0.38,
+                        "lower-diameter": 20.02,
+                        "upper-diameter": 20.02
+                    },
+                    {
+                        "height": 1.8,
+                        "lower-diameter": 20.02,
+                        "upper-diameter": 20.02
+                    },
+                    {
+                        "height": 0.67,
+                        "lower-diameter": 20.02,
+                        "upper-diameter": 20.02
+                    },
+                    {
+                        "height": 1.2,
+                        "lower-diameter": 20.02,
+                        "upper-diameter": 20.02
+                    },
+                    {
+                        "height": 4.29,
+                        "lower-diameter": 20.02,
+                        "upper-diameter": 20.02
+                    },
+                    {
+                        "height": 3.03,
+                        "lower-diameter": 20.02,
+                        "upper-diameter": 20.02
+                    },
+                    {
+                        "height": 0.28,
+                        "lower-diameter": 20.02,
+                        "upper-diameter": 20.02
+                    },
+                    {
+                        "height": 1.63,
+                        "lower-diameter": 20.02,
+                        "upper-diameter": 20.02
+                    },
+                    {
+                        "height": 1.63,
+                        "lower-diameter": 20.02,
+                        "upper-diameter": 20.02
+                    },
+                    {
+                        "height": 0.28,
+                        "lower-diameter": 20.02,
+                        "upper-diameter": 20.02
+                    },
+                    {
+                        "height": 4.34,
+                        "lower-diameter": 20.02,
+                        "upper-diameter": 20.02
+                    },
+                    {
+                        "height": 0.19,
+                        "lower-diameter": 20.02,
+                        "upper-diameter": 19.64
+                    }
+                ],
+                "type": "holder",
+                "unit": "millimeters",
+                "vendor": ""
+            },
+            "post-process": {
+                "break-control": false,
+                "comment": "Radienfraeser 6mm",
+                "diameter-offset": 47,
+                "length-offset": 47,
+                "live": false,
+                "manual-tool-change": false,
+                "number": 47,
+                "turret": 0
+            },
+            "product-id": "",
+            "product-link": "",
+            "shaft": {
+                "segments": [
+                    {
+                        "height": 3,
+                        "lower-diameter": 8,
+                        "upper-diameter": 8
+                    }
+                ],
+                "type": "shaft"
+            },
+            "start-values": {
+                "presets": [
+                    {
+                        "expressions": {
+                            "tool_coolant": "'disabled'",
+                            "tool_feedCutting": "2000 mmpm",
+                            "tool_feedPlunge": "1000 mmpm",
+                            "tool_feedRamp": "2000 mmpm",
+                            "tool_spindleSpeed": "12000 rpm"
+                        },
+                        "f_n": 0.08333333333333333,
+                        "f_z": 0.041666666666666664,
+                        "guid": "e8aeec24-972c-473a-b1dd-4095e68fe309",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 12000,
+                        "n_ramp": 12000,
+                        "name": "Vorgabe-Voreinstellung",
+                        "tool-coolant": "disabled",
+                        "use-stepdown": false,
+                        "use-stepover": false,
+                        "v_c": 471.238898038469,
+                        "v_f": 2000,
+                        "v_f_leadIn": 2000,
+                        "v_f_leadOut": 2000,
+                        "v_f_plunge": 1000,
+                        "v_f_ramp": 2000,
+                        "v_f_transition": 2000
+                    }
+                ]
+            },
+            "type": "radius mill",
             "unit": "millimeters",
             "vendor": ""
         }
