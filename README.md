@@ -14,12 +14,12 @@ Python script to automate the transfer of tools which were generated in [Autodes
  - Copy this file to: **C:\ProgramData\KinetiC-NC**
  - Then start KINETIC-NC and the tool library will be the same as exported from FUSION
 
- > [!NOTE] 
- > "C:\ProgramData" normally is not visible in the Windows explorer (unless otherwise set by the user). So just enter the path as schon in the figure below in Windows explorer.
+ > [!NOTE]
+ > "C:\ProgramData" normally is not visible in the Windows explorer (unless otherwise set by the user). So just enter the path as shown in the figure below in Windows explorer.
 
 <div style="text-align: center;">
     <p style="border: 1px solid #ccc; padding: 5px; display: inline-block;">
         <img src="images/KINETIC-NC-ProgramData.png" alt="Kinetic NC ProgramData" width="400" />
     </p>
 </div>
- 
+
